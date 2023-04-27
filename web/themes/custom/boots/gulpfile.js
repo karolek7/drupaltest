@@ -1,15 +1,15 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
 const autoprefixer = require('gulp-autoprefixer');
-const flatten = require('gulp-flatten');
+// const flatten = require('gulp-flatten');
 const browserSync = require('browser-sync').create();
 
 // compile scss to css
 function subthemeStyle() {
-  return gulp.src('src/scss/**/*.scss', { base: '.'})
+  return gulp.src('src/scss/style.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer())
-    .pipe(flatten({ includeParents: 0 }))
+    // .pipe(flatten({ includeParents: 0 }))
     .pipe(gulp.dest('dist/css'))
     .pipe(browserSync.stream());
 }

@@ -1,7 +1,8 @@
-bootstrap:
+global:
+  version: VERSION
   css:
-    theme:
-      css/bootstrap.css: {}
+    base:
+      dist/css/style.css: {}
   js:
     js/bootstrap.js: {}
   dependencies:
