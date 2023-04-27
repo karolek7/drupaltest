@@ -1,0 +1,13 @@
+boots.breakpoints:
+  mobile:
+    label: mobile
+    mediaQuery: 'only screen and (max-width: 767px)'
+    weight: 0
+  tablet:
+    label: tablet
+    mediaQuery: 'only screen and (min-width: 768px) and (max-width: 991px)'
+    weight: 1
+  desktop:
+    label: desktop
+    mediaQuery: 'only screen and (min-width: 992px)'
+    weight: 2

@@ -1,0 +1,10 @@
+bootstrap:
+  css:
+    theme:
+      css/bootstrap.css: {}
+  js:
+    js/bootstrap.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
