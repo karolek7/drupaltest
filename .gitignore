@@ -3,3 +3,4 @@
 /web/modules/contrib
 /web/themes/contrib
 web/sites/default/files
+/node_modules
